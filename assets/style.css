@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;700&family=Poppins:wght@400;500;700&family=Squada+One&display=swap');
+
+
+.ungu {
+    background-color: #890082;
+}
+
+.cream{
+    background-color: #FCD9A7;
+}
+
+.text-cream{
+    color: #FCD9A7 !important;
+}
+
+.tombol-navigasi{
+    color: white;
+    text-decoration: none;
+}
+
+.tombol-navigasi:hover{
+    color: #FCD9A7;
+}
+
+.btn-cream{
+    color: #232323;
+    background-color: #FCD9A7;
+    text-decoration: none;
+}
+
+.btn-cream:hover{
+    background-color: #ffe3bd;
+}
+
+.tombol-more{
+    padding: 8px 20px;
+    color: #232323;
+    text-decoration: none;
+}
+
+.tombol-more:hover{
+    color: #fff;
+    background-color: #dbbc90;
+}
+
+.naik{
+    position: absolute;
+}
+
+body .gambar-home{
+    background-image: linear-gradient(to top, rgba(137, 0, 130, 0.7) 50%, rgba(137, 0, 130, 0.7) 100%), url(bg_home.png);
+    background-size:cover;
+    background-position: center;
+    height: 400px;
+}
+
+body .gambar-utama{
+    background-image: linear-gradient(to top, rgba(137, 0, 130, 0.7) 50%, rgba(137, 0, 130, 0.7) 100%), url(bg_home.png);
+    background-size:cover;
+    background-position: center;
+    height: 200px;
+}
+
+main h5{
+    font-size: 1rem;
+}
+
+.chat{
+    z-index: 1;
+    width: 100px;
+    position:fixed;
+    bottom: 0;
+    right: 50px;
+}
+
+.helpdesk-chat{
+    color: #fff;
+    border-radius: 8px 8px 0 0 ;
+}
+
+.lebih{
+    margin-top: -70px;
+}
+
+.ug-site{
+    position: sticky;
+    top: 50px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+
+.judul-news{
+    font-size: 1.5em;
+}
+
+@media screen and (max-width:576px){
+
+    header nav {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    header nav div{
+        margin: 5px;
+    }
+
+    .menjadi-column{
+        flex-direction: column;
+    }
+
+    .ingvisible{
+        visibility: collapse;
+    }
+
+    .lebar-full{
+        width: 100% !important;
+    }
+
+    .judul-news{
+        font-size: 18px;
+    }
+}
